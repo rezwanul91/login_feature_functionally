@@ -44,6 +44,7 @@ public class Employee_Login_Functionality extends Base{
 		String s = getElementText( By.xpath("//h2[text()='Welcome Test ']") );
 		//Verify the Text is "Welcome David1"
 		assertEquals("Welcome Test", s);
+		System.out.println("Test verified");
 	}
 
 }
