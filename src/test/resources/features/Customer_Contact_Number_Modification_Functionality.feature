@@ -1,6 +1,6 @@
 Feature: Customer Contact Number Modification functionality
 
-@Sanity @Regression
+@Sanity
 Scenario: Verify Customer Contact Number Modification functionality
 Given I am in landing page http://it.microtechlimited.com
 When I Click on Login menu
