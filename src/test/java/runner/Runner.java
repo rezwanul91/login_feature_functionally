@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {"src\\test\\resources\\features"},	
 		glue = {"step_definitions", "Hooks"},
-		tags = {"@Sanity"},
+		tags = "@Sanity",
 		monochrome = true,
 		dryRun = false,
 		plugin = {"pretty",  "html:test-output"}
