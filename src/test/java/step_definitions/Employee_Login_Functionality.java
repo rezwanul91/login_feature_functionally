@@ -45,6 +45,7 @@ public class Employee_Login_Functionality extends Base{
 		//Verify the Text is "Welcome David1"
 		assertEquals("Welcome Test", s);
 		System.out.println("Test verified");
+		System.out.println("test is verified");
 	}
 
 }
